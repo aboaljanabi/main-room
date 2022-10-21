@@ -14,6 +14,22 @@ let base = (e) => {
 }
 
 b.addEventListener("pointermove", base);
+
+
+function myfun() {
+    location.href = 'https://aboaljanabi.github.io/cont/';
+}
+function myfun1() {
+    location.href = 'https://aboaljanabi.github.io/modern-id/';
+}
+
+function myfun2() {
+    location.href = 'https://aboaljanabi.github.io/myport/';
+}
+function myfun3() {
+    location.href = 'https://aboaljanabi.github.io/2nd-room/';
+}
+
 // clock script
 function showTime(){
     var date = new Date();
