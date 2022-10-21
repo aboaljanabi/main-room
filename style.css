@@ -20,7 +20,7 @@
   text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
 }
  
-a {
+.workbtn {
   position: relative;
   display: inline-block;
   padding: 15px 30px;
@@ -35,7 +35,7 @@ a {
 
 
 
-a:hover {
+.workbtn:hover {
   color: #255784;
   background: #2196f3;
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
@@ -125,6 +125,7 @@ body {
     10px 0 80px #0ff;
    
 }
+
 .blb__back1 {
   width: 11vw;
   height: 19vw;
@@ -232,7 +233,8 @@ body {
 
 
 .cuadro-l__front,
-.cuadro-r__front {
+.cuadro-r__front
+ {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
